@@ -1,0 +1,14 @@
+#MechaCar
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- The vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. This is because they both have a positive correlation from the multiple linear regression model
+
+Is the slope of the linear model considered to be zero? Why or why not?
+- The slope of the linear model is not considered to be zero, given that the Multiple R-squared is 0.7149 and the p-value of 5.35e-11 is below the assumed significance level of 0.05%. Therefore, there is enough evidence to reject the null hypothesis
+
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- We got a p-value is 5.35e-11, which is below the significance level of 0.05% and the Multiple R-squared value is 0.7149.Therefore, 71% of the predictions will be effective using this linear model for the MechaCar prototypes.
+
+
+#Suspension Coil
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
