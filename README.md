@@ -57,8 +57,11 @@
   * Overall the suspension coil has a variance of 76.23 which meets the design specifications but after grouping them by manufacturing lot, I found out that Lot 3 does not meet the design specifications for the variance of the suspension coil must not exceed 100 pounds per inch.
   
 * Visualization of the distribution using density plot
-     ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%201.png)
+  * Suspension Coil table
+  ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%201.png)
+  * My first sample data
   ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%20sample%201.png)
+  * My second sample data
   ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%20sample2.png)
 
 * T-test
