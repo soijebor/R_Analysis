@@ -55,11 +55,16 @@
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
 
   * Overall the suspension coil has a variance of 76.23 which meets the design specifications but after grouping them by manufacturing lot, I found out that Lot 3 does not meet the design specifications for the variance of the suspension coil must not exceed 100 pounds per inch.
+  
+* Visualization of the distribution using density plot
+     ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%201.png)
+  ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%20sample%201.png)
+  ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%20sample2.png)
 
 * T-test
   * The p-value is above the assumed significance level. Therefore, there is not enough evidence to reject the null hypothesis and we can confirm our two samples are not statistically different.
-  ![](/Users/sonia_ij/Desktop/Data Analysis Class/Module 15/R_Analysis/Challenge/images/Rplot 1.png)
-  ![](/Users/sonia_ij/Desktop/Data Analysis Class/Module 15/R_Analysis/Challenge/images/Rplot sample 1.png)
-  ![](/Users/sonia_ij/Desktop/Data Analysis Class/Module 15/R_Analysis/Challenge/images/Rplot sample2.png)
+  ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%201.png)
+  ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%20sample%201.png)
+  ![](https://github.com/soijebor/R_Analysis/blob/master/Challenge/images/Rplot%20sample2.png)
 
 Design Your Own Study:
