@@ -77,7 +77,7 @@ Design a study that compares the performance of the MechaCar prototype vehicle t
  * Knowing what test should be used, what data should be collected?
 
 
-***For my study, i picked 2 metrics which i think are of a consumer interest:***
+***For my study, I picked 2 metrics which i think are of a consumer interest:***
 * Cost - Sales price is very important to a consumer on a budget
   * Simple Linear Regression - Continuous
   
@@ -85,7 +85,7 @@ Design a study that compares the performance of the MechaCar prototype vehicle t
      
      Ha : The slope of the linear model is not zero, or m ≠ 0
      
-* Hosepower - Generally people want more hose power especially if they are into sport cars
+* Horsepower - Generally people want more hose power especially if they are into sport cars
   * ANOVA Test - Continuous
   
     H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
