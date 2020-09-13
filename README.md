@@ -68,4 +68,22 @@
 * T-test
   * The p-value is above the assumed significance level. Therefore, there is not enough evidence to reject the null hypothesis and we can confirm our two samples are not statistically different.
 
-Design Your Own Study:
+#### Design Your Own Study:
+In your study design, be sure to write about the following considerations:
+
+Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.).
+Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
+Knowing what test should be used, what data should be collected?
+
+
+***For my study, i picked 2 metrics which i think are of a consumer interest:***
+* Cost - Sales price is very important to a consumer on a budget
+  -Simple Linear Regression - Continuous
+     H0 : The slope of the linear model is zero, or m = 0
+     Ha : The slope of the linear model is not zero, or m ≠ 0
+  * Hosepower - Generally people want mor hose power especially if they are into sport cars
+    -ANOVA Test - Continuous
+    H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+    Ha : At least one of the means is different from all other groups.
+
+
