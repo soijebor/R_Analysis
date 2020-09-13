@@ -1,4 +1,4 @@
-#MechaCar MPG Regression
+* MechaCar MPG Regression
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - The vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. This is because they both have a positive correlation from the multiple linear regression model
 
@@ -9,8 +9,8 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 - We got a p-value is 5.35e-11, which is below the significance level of 0.05% and the Multiple R-squared value is 0.7149.Therefore, 71% of the predictions will be effective using this linear model for the MechaCar prototypes.
 
 
-#Suspension Coil
-Suspension Coil Summary
+* Suspension Coil
+* Suspension Coil Summary
 After generating the summary statistics for Suspension Coil, I got the following results for the Mean, Median, Variance and Standard Deviation:
 - Mean = 1500
 - Median = 1500
@@ -27,7 +27,26 @@ I also generated the summary statistics for Suspension Coil based on Manufacturi
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
 - Overall the suspension coil has a variance of 76.23 which meets the design specifications but after grouping them by manufacturing lot, I found out that Lot 3 does not meet the design specifications for the variance of the suspension coil must not exceed 100 pounds per inch.
 
-T-test
+* T-test
 - The p-value is above the assumed significance level. Therefore, there is not enough evidence to reject the null hypothesis and we can confirm our two samples are not statistically different.
 
-Design Your Own Study:
+* Design Your Own Study:
+For my study, i picked 2 metrics which i think are of a consumer interest:
+
+* Cost - Sales price is very important to a consumer on a budget
+
+Simple Linear Regression - Continuous
+
+H0 : The slope of the linear model is zero, or m = 0
+
+Ha : The slope of the linear model is not zero, or m ≠ 0
+
+* Hosepower - Generally people want mor hose power especially if they are into sport cars
+
+ANOVA Test - Continuous
+
+H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+
+Ha : At least one of the means is different from all other groups.
+
+
