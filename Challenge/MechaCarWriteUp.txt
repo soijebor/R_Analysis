@@ -1,4 +1,4 @@
-#MechaCar
+#MechaCar MPG Regression
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - The vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. This is because they both have a positive correlation from the multiple linear regression model
 
@@ -10,5 +10,24 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 
 #Suspension Coil
+Suspension Coil Summary
+After generating the summary statistics for Suspension Coil, I got the following results for the Mean, Median, Variance and Standard Deviation:
+- Mean = 1500
+- Median = 1500
+- Variance = 76.23
+- Standard Deviation = 8.73
+
+I also generated the summary statistics for Suspension Coil based on Manufacturing Lots using the group_by function
+        Mean     Median  Variance SD
+#Lot1   1500.    1500.   1.15    1.07
+#Lot2   1500.    1499.   10.1    3.18
+#Lot3   1499.    1498.   220.    14.8 
+
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
+- Overall the suspension coil has a variance of 76.23 which meets the design specifications but after grouping them by manufacturing lot, I found out that Lot 3 does not meet the design specifications for the variance of the suspension coil must not exceed 100 pounds per inch.
+
+T-test
+- The p-value is above the assumed significance level. Therefore, there is not enough evidence to reject the null hypothesis and we can confirm our two samples are not statistically different.
+
+Design Your Own Study:
