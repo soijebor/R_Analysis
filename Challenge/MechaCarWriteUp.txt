@@ -31,7 +31,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 - The p-value is above the assumed significance level. Therefore, there is not enough evidence to reject the null hypothesis and we can confirm our two samples are not statistically different.
 
 * Design Your Own Study:
-For my study, i picked 2 metrics which i think are of a consumer interest:
+For my study, I picked 2 metrics which I believe are of a consumer interest:
 
 * Cost - Sales price is very important to a consumer on a budget
 
@@ -41,7 +41,7 @@ H0 : The slope of the linear model is zero, or m = 0
 
 Ha : The slope of the linear model is not zero, or m ≠ 0
 
-* Hosepower - Generally people want mor hose power especially if they are into sport cars
+* Horsepower - Generally people want mor horsepower especially if they are into sport cars
 
 ANOVA Test - Continuous
 
