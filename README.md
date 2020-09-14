@@ -77,7 +77,7 @@ Design a study that compares the performance of the MechaCar prototype vehicle t
  * Knowing what test should be used, what data should be collected?
 
 
-***For my study, I picked 2 metrics which i think are of a consumer interest:***
+***For my study, I picked 2 metrics which I believe are of a consumer interest:***
 * Cost - Sales price is very important to a consumer on a budget
   * Simple Linear Regression - Continuous
   
