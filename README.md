@@ -85,7 +85,7 @@ Design a study that compares the performance of the MechaCar prototype vehicle t
      
      Ha : The slope of the linear model is not zero, or m ≠ 0
      
-* Horsepower - Generally people want more hose power especially if they are into sport cars
+* Horsepower - Generally people want more horsepower especially if they are into sport cars
   * ANOVA Test - Continuous
   
     H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
