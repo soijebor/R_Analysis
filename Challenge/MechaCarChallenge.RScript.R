@@ -2,8 +2,8 @@
 library(tidyverse)
 
 # Load and read  MechaCar_mpg csv file 
-MechaCar_table <- read.csv("MechaCar_mpg.csv", check.names = T,stringsAsFactors = F) #import used car dataset
-MechaCar_table
+MechaCar <- read.csv("MechaCar_mpg.csv", check.names = T,stringsAsFactors = F) #import used car dataset
+MechaCar
 
 #Generate multiple linear regression model with all variables
 lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD, data = MechaCar)
